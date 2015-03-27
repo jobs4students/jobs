@@ -1,41 +1,25 @@
-    <div id="footer">
-        <div class="bottom-container footer">
-            <div class="container">
-                <div class="two columns alpha">
-                    <h4>Home</h4>
-                    <ul>
-                    <li><a href="#" class=" blank-link">Sign in</a></li>  
-                    <li><a href="#" class=" blank-link">jobs search</a></li>
-                    </ul>
-                </div>
-                <div class="two columns">
-                    <h4>About Us</h4>
-                        <ul>
-                        <li><a href="/final/contact/contact.html" class=" ">Contact Us</a></li>
-                        <li><a href="#" class=" blank-link">Help</a></li>
-                        </ul>
-                </div>
-                <div class="two columns">
-                    <h4>Contact</h4>
-                        <ul>
-                        <li><a href="/final/contact/contact.html" class=" ">Contact us</a></li>
-                        <li><a href="#" class=" ">Privacy Policy</a></li>
-                        <li><a href="#" class=" ">Terms of Use</a></li>
-                        </ul>
-                </div>
-                <div class="six columns">
-                    <p class="tright">
-                        <a href="#" class="iconned twitter blank-link" title="Twitter"></a>
-                        <a href="#"class="iconned facebook blank-link" title="Facebook"></a>        
-                    </p>
-                    <p class="tright">&copy; jobs4students 2015.</p>
-                </div>
-            </div>
+      <div class="container-fluid">
+          
+          
+        <div class="col-xs-12 col-md-offset-3 col-md-6">
+            
+          <div class="flex-box">
+
+              <a href="../public/contact_index.php" class="icons">
+                <i class="fa fa-envelope"></i>
+            </a>
+
+              <a href="http://behance.net/graphical28" class="icons">
+                <i class="fa fa-twitter"></i>
+              </a>
+           
+              <a href="https://www.facebook.com/Jobs4studentsbu" class="icons">
+                <i class="fa fa-facebook"></i>
+              </a>
+
         </div>
-
-    </div>
-
-<script src="js/toucheffects.js"></script>
+        </div>
+      </div>
 
     </body>
 </html>

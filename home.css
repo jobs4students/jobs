@@ -1,0 +1,44 @@
+
+body
+    {
+        margin: 0px;
+        background-color: #2a83b2;
+        
+    }
+
+#typer
+        {
+            
+            background: url("../public/images/officespace.png");
+            background-color: #2a83b2;
+            opacity: 2.0;
+            width: 100%;
+            height: 400px;
+            padding: 0%;
+            padding-top: 150px;    
+            display: table;
+            color: white;
+            text-align: center;
+            font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif, sans-serif;
+            white-space: nowrap;
+            font-style:italic;
+            vertical-align: middle;
+            text-align: center;
+            z-index: 0;
+        } 
+            
+      
+
+#footer
+        {
+            background-color: #9cacbe;
+            width: 100%;
+            height: 200px;
+           
+        }
+
+.copyright
+            {
+                
+            }
+

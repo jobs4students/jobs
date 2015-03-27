@@ -1,70 +1,100 @@
-/* Grid CSS*/
+body{ 
+    
+    background:#fff; 
+    color:#7d848f; 
+    font-family:"proxima-nova", Arial, sans-serif;
+    
+    }
 
-.highlight-columns .column                      ,
-.highlight-columns .columns                     { background:red; }
-.highlight-columns .container                   { background:#ddd; }
-.highlight-columns .padded                      { background:#00ff00; }
-  .highlight-columns .padded .container         { background:transparent !important; margin-bottom:10px; }
+@import url(http://fonts.googleapis.com/css?family=Mallanna);
+
+.container-fluid{
+    
+    width; 100%;
+    background: #94abb9;
+    color: #fff;
+    
+}
+.flex-box {
+  display: flex;
+  background-color: #94abb9;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+  margin-top: 10px;
+  border-top: 1px solid #d8d8d8;
+}
+
+a.icons{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 3.14em;
+    color: white;
+  }
+
+    .fa-envelope {
+      padding: 1.3em 1.3em 1.3em 1.3em;
+      font-size: 1.65em;
+    }
+    .fa-twitter {
+      padding: 1.3em 1.3em 1.3em 1.3em;
+      font-size: 1.65em;
+    }
+    .fa-facebook {
+      padding: 1.3em 1.4em 1.3em 1.4em;
+      font-size: 1.65em;
+    }
   
-
-.container:after                                { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
-
-/* #Base 
-================================================== */
-
-    .bottom-container                            { float:left; width:100%; }
-
-    .container                                  { position:relative; width:1194px; margin:0 auto; padding:0px; z-index:2; }
-    .container                                  { margin-bottom:0px; }
-    .container.tall                             { margin-bottom:20px; }
-    .container .column,
-    .container .columns                         { float: left; display: inline; margin:0 0 0 30px; position:relative; padding:0; }
-
-   
-    .column.alpha, .columns.alpha               { margin-left: 0; clear:left; }
-    .column.omega, .columns.omega               { margin-right: 0; clear:right; }
-
-    
-    .column.left, .columns.fleft                { float:left; }
-    .column.fright, .columns.fright, .columns.last { float:right; }
-
-    /* Base Grid */
-    .container .one.column,
-    .container .one.columns                     { width: 72px;  }
-    .container .two.columns                     { width: 174px; }
-    .container .three.columns                   { width: 276px; }
-    .container .one-third.column                ,
-    .container .four.columns                    { width: 378px; }
-    .container .five.columns                    { width: 480px; }
-    .container .six.columns                     { width: 582px; }
-    .container .seven.columns                   { width: 684px; }
-    .container .two-thirds.column               ,
-    .container .eight.columns                   { width: 786px; }
-    .container .nine.columns                    { width: 888px; }
-    .container .ten.columns                     { width: 990px; }
-    .container .eleven.columns                  { width: 1092px; }
-    .container .twelve.columns                  { width: 1194px; }
-    
-/* Grid CSS*/
-    
-/* Layout.CSS*/
-    
-  body                                              { background:#fff; color:#7d848f; font-family:"proxima-nova", Arial, sans-serif; margin:0; padding:0; overflow-x:hidden; }
+  a.icons:hover {
+    color: #2a83b2 !important;
+    border-color: #05B9DF !important;
+    -webkit-transition:.5s ease;
+    -moz-transition:.5s ease;
+    -ms-transition:.5s ease;
+    -o-transition:.5s ease;
+    transition:.5s ease;
+  }
+    i.fa fa-envelope {
+      -webkit-transform:scale(1.2);
+      -moz-transform:scale(1.2);
+      -o-transform:scale(1.2);
+      -ms-transform:scale(1.2);
+      transform:scale(1.2);
+      color:#fff;
+      -webkit-transition:.3s ease;
+      -moz-transition:.3s ease;
+      -ms-transition:.3s ease;
+      -o-transition:.3s ease;
+      transition:.3s ease;
+    }
   
-.footer                                           { background:#94abb9; color:#72788a; padding:40px 0 30px 0; }
-.footer.abs                                       { position:relative; bottom:0px; left:0px; }
-  .footer p                                       { font-size:14px; }
-  .footer h4                                      { text-transform:uppercase; margin:0 0 15px 0; color:#fff; font-size:14px; }
-  .footer ul                                      { list-style:none; margin:0 0 30px 0; padding:0; line-height:2em; }
-    .footer ul li                                 { margin:0; padding:0; }
-      .footer ul li a                             { margin:0; padding:0; color:#fff; font-size:14px; text-decoration:none; }
-      .footer ul li a:hover                       { color:#ccc; text-decoration:none; }
-a.iconned                                       { overflow:hidden; height:40px; width:40px; background-position:left top; background-repeat:no-repeat; margin:5px 5px 0; display:inline-block; text-indent:-100000px; text-decoration:none;   /* transitions */ -o-transition:0s; -ms-transition:0s; -moz-transition:0s; -webkit-transition:0s; transition:0s; /* // transitions */ }
-  a.iconned:hover                                 { background-position:left bottom; text-decoration:none; }
-  a.iconned.facebook                              { background-image:url(../icon-facebook.png); }
-  a.iconned.twitter                               { background-image:url(../icon-twitter.png); }
+    i.fa fa-twitter {
+      -webkit-transform:scale(1.2);
+      -moz-transform:scale(1.2);
+      -o-transform:scale(1.2);
+      -ms-transform:scale(1.2);
+      transform:scale(1.2);
+      color:#fff;
+      -webkit-transition:.3s ease;
+      -moz-transition:.3s ease;
+      -ms-transition:.3s ease;
+      -o-transition:.3s ease;
+      transition:.3s ease;
+    }
+      i.fa fa-facebook {
+      -webkit-transform:scale(1.2);
+      -moz-transform:scale(1.2);
+      -o-transform:scale(1.2);
+      -ms-transform:scale(1.2);
+      transform:scale(1.2);
+      color:#fff;
+      -webkit-transition:.3s ease;
+      -moz-transition:.3s ease;
+      -ms-transition:.3s ease;
+      -o-transition:.3s ease;
+      transition:.3s ease;
+    }
+  
+}
 
-    
-     /* Layout.CSS*/
-    
     

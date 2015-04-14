@@ -2,7 +2,8 @@
 body
     {
         margin: 0px;
-        background-color: #2a83b2;
+        background-color: #82CFFD;
+        
         
     }
 
@@ -10,7 +11,7 @@ body
         {
             
             background: url("../public/images/officespace.png");
-            background-color: #2a83b2;
+            background-color: #82CFFD;
             opacity: 2.0;
             width: 100%;
             height: 400px;
@@ -28,6 +29,67 @@ body
         } 
             
       
+.logoutmessage{  
+        width: 100%;
+        height: 25px;
+        float: right;
+}
+.logout
+        {
+            background-color: #82CFFD;
+            height: 25px;
+            color: white;
+            float: right;
+        }
+        
+#map-title {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    margin-top: -115px;
+}
+    
+h1 {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif, sans-serif;
+    color: #7d848f;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+
+#jobs
+    {
+        background-color: #fff;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding-top: 50px;
+        position: fixed;
+            
+    }
+
+.box, th, td {
+	border: 1px solid #82CFFD;
+	background: #fff;
+	width: 800px;
+	margin: 20px auto 330px auto;
+    color: #94abb9;
+    
+     text-align: center;
+    height: 50px;
+    }
+table {
+    
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);   
+    
+}
+th {
+background-color:#82CFFD;
+color:white;
+}
+
 
 #footer
         {
@@ -41,4 +103,40 @@ body
             {
                 
             }
+/* button */ 
+
+#buttons{
+    margin-top: -260px;
+    text-align: center;
+    z-index: 1000;
+    padding-bottom: 300px;
+}
+
+.btns{
+   width: 200px;
+   height: 60px;
+   border:3px solid #82CFFD;
+   background-color: #f1efec;
+   outline: none;
+   font-size: 17px;
+   color:#2a83b2;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   -webkit-transition: 0.7s;
+   -moz-transition: 0.7s;
+   -ms-transition: 0.7s;
+   -o-transition: 0.7s;
+   transition: 0.7s;
+}
+
+.btns:hover{
+      background-color: #94abb9;
+      border:none;
+      color:white;
+      -webkit-transition: 1s;
+      -moz-transition: 1s;
+      -ms-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s;
+}
 
